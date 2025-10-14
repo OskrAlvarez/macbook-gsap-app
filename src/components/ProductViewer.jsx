@@ -1,8 +1,6 @@
 import clsx from "clsx";
 import useMacbookStore from "../store";
 import { Canvas } from "@react-three/fiber";
-import { Box, OrbitControls } from "@react-three/drei";
-import MacbookModel14 from "./models/Macbook-14";
 import StudioLights from "./three/StudioLights";
 import ModelSwitcher from "./three/ModelSwitcher";
 import { useMediaQuery } from "react-responsive";
@@ -15,7 +13,7 @@ const isMobile = useMediaQuery({ query: '(max-width: 1024px)' })
       <h2>Mírala en detalle.</h2>
 
       <div className="controls">
-        {/* <p className="info">Macbook Pro Disponibles en 14" y 16" en colores Space Gray y Negro</p> */}
+        <p className="info">Macbook Pro Disponibles en 14" y 16" en colores Space Gray y Negro</p>
         <div className="flex-center gap-5 mt-5">
           <div className="color-control">
             <div
@@ -58,7 +56,7 @@ const isMobile = useMediaQuery({ query: '(max-width: 1024px)' })
           </div>
         </div>
       </div>
-      <Canvas id="canvas" camera={{ position: [0,2,5], fov: 50, near: 0.1, far:100 }}>
+      <Canvas id="canvas" camera={{ position: [0, 2, 5], fov: 50, near: 0.1, far: 100}} >
         <StudioLights />
         <ModelSwitcher scale={isMobile ? scale - 0.03 : scale} isMobile={isMobile}/>
       </Canvas>
