@@ -127,7 +127,7 @@ const Features = () => {
           >
             <img src={feature.icon} alt={feature.highlight} />
             <p>
-              <span className="text-white">{feature.highlight}</span>
+              <span className="text-white">{feature.highlight}{' '}</span>
               {feature.text}
             </p>
           </div>

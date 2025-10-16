@@ -75,42 +75,42 @@ const performanceImgPositions = [
 ];
 
 const features = [
-    {
-        id: 1,
-        icon: "/feature-icon1.svg",
-        highlight: "Email AI.",
-        text: "Summarize and draft replies to emails instantly, so you stay on top of your inbox.",
-        styles: "left-5 md:left-20 top-[20%] opacity-0 translate-y-5",
-    },
-    {
-        id: 2,
-        icon: "/feature-icon2.svg",
-        highlight: "Image AI.",
-        text: "Generate or edit images with ease. Just type what you imagine, and let AI bring it to life.",
-        styles: "right-5 md:right-20 top-[30%] opacity-0 translate-y-5",
-    },
-    {
-        id: 3,
-        icon: "/feature-icon3.svg",
-        highlight: "Summarize AI.",
-        text: "Turn long articles, reports, or notes into clear, bite-sized summaries in seconds.",
-        styles: "left-5 md:left-20 top-[50%] opacity-0 translate-y-5",
-    },
-    {
-        id: 4,
-        icon: "/feature-icon4.svg",
-        highlight: "AirDrop.",
-        text: "Wirelessly share photos, large files, and more between your iPhone, your Mac, & other devices.",
-        styles: "right-5 md:right-20 top-[70%] opacity-0 translate-y-5",
-    },
-    {
-        id: 5,
-        icon: "/feature-icon5.svg",
-        highlight: "Writing Tool.",
-        text: "Write smarter and faster, whether it’s blogs, essays, or captions, AI helps polish your words.",
-        styles: "left-5 md:left-20 top-[90%] opacity-0 translate-y-5",
-    },
-];
+  {
+    id: 1,
+    icon: "/feature-icon1.svg",
+    highlight: "Email IA.",
+    text: "Resume y redacta respuestas a correos al instante para mantener tu bandeja de entrada bajo control.",
+    styles: "left-5 md:left-20 top-[20%] opacity-0 translate-y-5",
+  },
+  {
+    id: 2,
+    icon: "/feature-icon2.svg",
+    highlight: "Imagen IA.",
+    text: "Genera o edita imágenes con facilidad. Solo escribe lo que imaginas y deja que la IA lo haga realidad.",
+    styles: "right-5 md:right-20 top-[30%] opacity-0 translate-y-5",
+  },
+  {
+    id: 3,
+    icon: "/feature-icon3.svg",
+    highlight: "Resumen IA.",
+    text: "Convierte artículos largos, informes o notas en resúmenes claros y concisos en segundos.",
+    styles: "left-5 md:left-20 top-[50%] opacity-0 translate-y-5",
+  },
+  {
+    id: 4,
+    icon: "/feature-icon4.svg",
+    highlight: "AirDrop.",
+    text: "Comparte fotos, archivos grandes y más de forma inalámbrica entre tu iPhone, Mac y otros dispositivos.",
+    styles: "right-5 md:right-20 top-[70%] opacity-0 translate-y-5",
+  },
+  {
+    id: 5,
+    icon: "/feature-icon5.svg",
+    highlight: "Herramienta de escritura.",
+    text: "Escribe de forma más inteligente y rápida. Ya sean blogs, ensayos o textos cortos, la IA mejora tus palabras.",
+    styles: "left-5 md:left-20 top-[90%] opacity-0 translate-y-5",
+  }
+]
 
 const featureSequence = [
     { videoPath: "/videos/feature-1.mp4", boxClass: ".box1", delay: 1 },
